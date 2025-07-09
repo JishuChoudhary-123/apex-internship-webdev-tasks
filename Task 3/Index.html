@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 3 - Quiz and API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apex Internship Task 3</h1>
+  </header>
+
+  <main>
+    <!-- Responsive Section -->
+    <section class="intro">
+      <p>This layout is responsive. Resize the screen to test it!</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="quiz-section">
+      <h2>Simple Quiz</h2>
+      <div id="quiz-container">
+        <p id="question"></p>
+        <div id="options"></div>
+        <button onclick="nextQuestion()">Next</button>
+        <p id="score"></p>
+      </div>
+    </section>
+
+    <!-- API Section -->
+    <section class="api-section">
+      <h2>Random Joke Generator</h2>
+      <button onclick="getJoke()">Get Joke</button>
+      <p id="joke"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
